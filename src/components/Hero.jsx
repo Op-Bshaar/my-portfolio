@@ -1,5 +1,5 @@
 import React from 'react'
-import CustomImage from '../assets/WhatsApp Image 2024-07-04 at 2.39.17 PM(1).jpeg'
+import CustomImage from '../assets/WhatsApp Image 2024-07-08 at 6.42.23 PM.jpeg'
 import{About_contant} from '../constants/index'
 const Hero = () => {
   return (

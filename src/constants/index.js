@@ -1,6 +1,7 @@
-import Project1 from '../assets/WhatsApp Image 2024-07-04 at 4.01.23 PM.jpeg'
+import Project1 from '../assets/WhatsApp Image 2024-07-08 at 6.27.35 PM.jpeg'
 import Project2 from '../assets/WhatsApp Image 2024-07-03 at 6.01.55 PM.jpeg'
 import Project3 from '../assets/WhatsApp Image 2024-07-03 at 9.33.28 AM.jpeg'
+
 
 export const About_contant = `As Software Engineering. 
  
@@ -24,7 +25,7 @@ export const Porjects = [
         title:"E-Commerce Website",
         image:Project1,
         discription:" ",
-        technology:["React","Typesript","Redux"]
+        technology:["React","Css"]
         
     },
 

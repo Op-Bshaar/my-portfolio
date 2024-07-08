@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa';
+import myImge from '../assets/photo_2024-07-07_17-02-46.jpg'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,8 +12,8 @@ const Navbar = () => {
   return (
     <nav className='flex flex-wrap justify-between items-center p-5 bg-gray-800 text-white'>
       <div className='flex items-center space-x-4'>
-        <p className='text-lg font-bold'>Logo</p>
-        <a href="#home" className='hidden md:block p-2'>Home</a>
+        <img src = {myImge} aly ="myImge" className='w-14 h-14 ml-5' />
+        <a href="#home" className='hidden md:block p-2 pl-10'>Home</a>
         <a href="#about" className='hidden md:block p-2'>About</a>
         <a href="#technology" className='hidden md:block p-2'>Technology</a>
         <a href="#projects" className='hidden md:block p-2'>Projects</a>
